@@ -15,7 +15,8 @@ formEl.addEventListener("submit", (event) => {
     }else{
         errorEl.style.display = "block";
         errorEl.innerText = "Не корректный формат почты";
-        errorEl.style.borderColor = "red";
+        errorEl.style.border = '1px solid red';
+
     }
 })
 
